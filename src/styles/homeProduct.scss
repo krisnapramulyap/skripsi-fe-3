@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap%22");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.header {
+  width: 100%;
+}
+
+.promo-section {
+  border-right: 1px solid rgba(158, 158, 158, 0.418);
+  .promo-list {
+    height: 400px;
+    overflow-y: auto;
+  }
+}
+.promo-title {
+  color: #6a4029;
+  font-size: 22px;
+  font-weight: 600;
+}
+.promo-desc {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+}
+.promo-list-card {
+  border-radius: 16px;
+  transition: 0.2s;
+  position: relative;
+
+  &.active {
+    background-color: #429142;
+    color: #fff;
+  }
+}
+
+.edit-promo-menu {
+  background-color: #6a4029;
+  right: 0;
+}
+.edit-promo-menu,
+.delete-promo-menu {
+  bottom: -20px;
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  position: absolute;
+}
+.delete-promo-menu {
+  background-color: #0b132a;
+  right: 52px;
+}
+.promo-list-card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.promo-list-card-img {
+  width: 80px;
+  height: 90px;
+}
+.bg-green {
+  background-color: #b1e193;
+}
+.bg-yellow {
+  background-color: #f5c361;
+}
+.bg-brown {
+  background-color: #c59378;
+}
+.promo-card-header {
+  font-weight: 700;
+  font-size: 18px;
+}
+.promo-card-desc {
+  font-weight: 400;
+  font-size: 16px;
+}
+.btn-apply-coupon {
+  border-radius: 12px;
+  background-color: #6a4029;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
+/* =================================== menu section ===================== */
+.selected-category {
+  border-bottom: 3px solid #6a4029;
+  color: #6a4029 !important;
+  font-size: 18px;
+  font-weight: 700 !important;
+}
+.menu-list {
+  justify-content: space-between !important;
+}
+.food-category-list {
+  color: #9f9f9f;
+  font-size: 18px;
+  font-weight: 400;
+}
+.food-category-list:hover {
+  cursor: pointer;
+}
+.menu-item-img {
+  max-width: 90%;
+  height: 99px;
+  border-radius: 50%;
+}
+.menu-item-name {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  transition: 0.2s;
+}
+.menu-item-price {
+  color: #6a4029;
+  font-size: 17px;
+  font-weight: 500;
+}
+.card-list-menu-item {
+  border-radius: 8px;
+  position: relative;
+  width: 24%;
+  box-shadow: 0 12px 12px rgba(161, 161, 161, 0.342);
+}
+.card-list-menu-item:hover {
+  cursor: pointer;
+}
+.card-list-menu-item:hover .menu-item-name {
+  transform: scale(1.2);
+}
+/* admin kondisi edit delete menu */
+.edit-menu,
+.delete-menu {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  bottom: -16px;
+}
+.edit-menu {
+  background-color: #6a4029;
+  right: 20px;
+}
+.delete-menu {
+  background-color: #0b132a;
+  left: 20px;
+}
+.edit-menu:hover,
+.delete-menu:hover {
+  cursor: pointer;
+}
+.button-add-product {
+  height: 56px;
+  color: white;
+  background-color: #6a4029;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .menu-item-name {
+    font-size: 16px;
+  }
+  .menu-item-price {
+    font-size: 15px;
+  }
+
+  .card-list-menu-item {
+    width: 33%;
+  }
+}
+
+@media (max-width: 576px) {
+  .promo-list-card-img {
+    width: 70px;
+    height: 80px;
+  }
+  .menu-item-name {
+    font-size: 14px;
+  }
+  .menu- .promo-header {
+    padding: 0 20px !important;
+  }
+  .promo-desc {
+    padding: 0 !important;
+  }
+  .menu-item-img {
+    width: 80px;
+    height: 80px;
+  }
+  .edit-menu,
+  .delete-menu,
+  .edit-promo-menu,
+  .delete-promo-menu {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media (max-width: 462px) {
+  .food-category-list {
+    font-size: 14px;
+  }
+  .menu-item-img {
+    width: 86px;
+    height: 86px;
+  }
+  .card-list-menu-item {
+    width: 50%;
+  }
+  .menu-item-name {
+    font-size: 17px;
+  }
+  .menu-item-price {
+    font-size: 16px;
+  }
+  .edit-menu,
+  .delete-menu,
+  .edit-promo-menu,
+  .delete-promo-menu {
+    width: 42px;
+    height: 42px;
+  }
+}

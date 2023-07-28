@@ -1,0 +1,19 @@
+.modal__delete--cancel {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #fff;
+  border: 3px solid rgba(106, 64, 41, 1);
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(106, 64, 41, 1);
+}
+
+.modal__delete--delete {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: rgba(106, 64, 41, 1);
+  // border: 3px solid rgba(106, 64, 41, 1);
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}

@@ -1,0 +1,73 @@
+.owl-carousel .item img {
+    height: 288px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.owl-carousel .item {
+    opacity: 0.4;
+    transition: .4s ease all;
+    transform: scale(0.8);
+
+}
+
+.active .item {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.owl-item {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
+.owl-carousel:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10%;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -4%;
+    pointer-events: none;
+    background-size: 100% auto;
+}
+
+.owl-controls {
+    position: absolute;
+    margin-top: 200px;
+}
+.owl-margin {
+    margin-top: 110px;
+}
+.slider {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1023px){
+    .sliderCarousel{
+        display: none;
+    }
+    .slider{
+        display: block;
+        height: 200px;
+    }
+    .slider .owl-theme .owl-nav { 
+        display: none; 
+      } 
+    .slider .owl-theme .owl-dots { 
+        display: none; 
+      }       
+      .owl-carousel{
+          height: 100px;
+      }
+      .slider .slider-card{
+          height: 120px;
+      }
+      .imgCarousel img{
+          height: 120px;
+      }
+}

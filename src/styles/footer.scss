@@ -1,0 +1,35 @@
+.footer {
+  background-color: #ffffff;
+  padding: 50px 0;
+  position: relative;
+}
+
+.footer__content--wrapper--left {
+  margin-bottom: 1.875rem;
+}
+
+.footer__content--wrapper--left > a {
+  font-size: 1.25rem;
+  color: #0b132a;
+  font-weight: 700;
+}
+
+.footer__content--wrapper--left--info {
+  margin: 1.25rem auto 1.875rem;
+  color: #4f5665;
+}
+
+.footer__content--wrapper--left--media {
+  display: flex;
+  align-items: center;
+}
+
+.sitelink__list--wrapper {
+  margin-right: 130px;
+}
+
+.sitelink__list--wrapper > h5 {
+  font-size: 1.125rem;
+  color: #0b132a;
+  margin-bottom: 1.25rem;
+}

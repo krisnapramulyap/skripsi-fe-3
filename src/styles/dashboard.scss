@@ -1,0 +1,118 @@
+.dashboard__page {
+  margin-top: 40px;
+  margin-bottom: 100px;
+
+  .form-check {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-check-input {
+    text-align: center;
+    justify-content: center;
+    margin: 0 !important;
+  }
+
+  .form-check > label.form-check-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .form-check-input:focus {
+    box-shadow: none;
+  }
+
+  .form-check-input:checked {
+    border: 4px solid #6a4029;
+    background-color: #ffba33;
+  }
+
+  .form-check-input:checked[type="radio"] {
+    background-image: none;
+  }
+
+  h5 {
+    font-size: 30px;
+    color: rgba(106, 64, 41, 1);
+  }
+
+  .dashboard__page--chart {
+    padding: 32px 46px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .dashboard__button {
+    padding: 15px 0px;
+    background: #6a4029;
+    box-shadow: 0px 6px 20px rgba(106, 64, 41, 0.6);
+    border-radius: 20px;
+    margin-top: 55px;
+    width: 50%;
+    font-size: 18px;
+    color: white;
+  }
+}
+@media (min-width: 992px) {
+  .dashboard__page {
+    margin-top: 40px;
+    margin-bottom: 100px;
+
+    .form-check {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .form-check-input {
+      text-align: center;
+      justify-content: center;
+      margin: 0 !important;
+    }
+
+    .form-check > label.form-check-label {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .form-check-input:focus {
+      box-shadow: none;
+    }
+
+    .form-check-input:checked {
+      border: 4px solid #6a4029;
+      background-color: #ffba33;
+    }
+
+    .form-check-input:checked[type="radio"] {
+      background-image: none;
+    }
+
+    h5 {
+      font-size: 30px;
+      color: rgba(106, 64, 41, 1);
+    }
+
+    .dashboard__page--chart {
+      padding: 32px 46px;
+      border-radius: 20px;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .dashboard__button {
+      padding: 15px 0px;
+      background: #6a4029;
+      box-shadow: 0px 6px 20px rgba(106, 64, 41, 0.6);
+      border-radius: 20px;
+      margin-top: 55px;
+      width: 50%;
+      font-size: 30px;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap%22");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+.body-login {
+  height: 100vh;
+}
+.jumbotron {
+  height: 100%;
+  width: 50%;
+  background-image: url("../images/bg-login.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.jumbotron-forgot-pass {
+  height: 100%;
+  width: 50%;
+  background-image: url("../images/bg-forgot.png");
+  background-size: cover;
+  background-position: 0 -124px;
+  background-repeat: no-repeat;
+}
+.register-content {
+  width: 50%;
+  height: 100%;
+  overflow-y: auto;
+}
+.logo-header {
+  width: 30px;
+  height: 33px;
+}
+.header-title {
+  color: #0b132a;
+  font-size: 20px;
+  font-weight: 700;
+}
+.signup-title {
+  color: #6a4029;
+  font-size: 35px;
+  font-weight: 700;
+}
+.label-form-auth {
+  color: #4f5665;
+  font-size: 20px;
+  font-weight: 700;
+}
+.input-form-auth {
+  padding-left: 12px;
+  height: 56px;
+  border-radius: 10px;
+  border: 0.5px solid #4f5665;
+}
+.input-form-auth::placeholder {
+  color: #9f9f9f;
+}
+/* .input-form-auth:-webkit-outer-spin-button,
+.input-form-auth::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+} */
+.forgot-password {
+  color: #6a4029;
+  font-size: 16px;
+  font-weight: 700;
+}
+.button-auth {
+  background-color: #ffba33;
+  height: 56px;
+  border: none;
+  color: #6a4029;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  box-shadow: 0 6px 20px rgba(196, 196, 196, 0.67);
+}
+.btn-forgot {
+  background-color: #6a4029;
+  color: white;
+  font-weight: 600;
+}
+.google-logo {
+  width: 27px;
+  height: 27px;
+}
+.forgot-pass-title {
+  color: #000000;
+  font-size: 42px;
+  font-weight: 700;
+}
+.forgot-pass-subtitle {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 400;
+}
+.button-google-signup {
+  height: 56px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  box-shadow: 0 6px 20px rgba(196, 196, 196, 0.67);
+  color: #000000;
+  font-size: 17px;
+  font-weight: 600;
+}
+.have-an-account {
+  color: #9f9f9f;
+  font-size: 15px;
+  font-weight: 600;
+}
+.forgot-timer {
+  font-size: 16px;
+  font-weight: 400;
+}
+.timer-forgot-pass {
+  font-weight: 700;
+  font-size: 18px;
+}
+.button-to-login {
+  height: 56px;
+  background-color: #6a4029;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  box-shadow: 0 6px 20px rgba(196, 196, 196, 0.67);
+}
+.footer-auth {
+  height: 511px;
+  background-color: #f8f8f8;
+}

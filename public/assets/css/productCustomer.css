@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap%22");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: wheat;
+}
+
+.footer-home {
+  width: 100%;
+  height: 200px;
+  background-color: wheat;
+}
+
+.menu-header {
+  /* height: 50px; */
+}
+.promo-list {
+  height: 400px;
+  overflow-y: auto;
+}
+.promo-title {
+  color: #6a4029;
+  font-size: 22px;
+  font-weight: 600;
+}
+.promo-desc {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+}
+.promo-list-card {
+  border-radius: 16px;
+}
+.promo-list-card-img {
+  width: 80px;
+  height: 90px;
+}
+.bg-green {
+  background-color: #88b788;
+}
+.bg-yellow {
+  background-color: #f5c361;
+}
+.bg-brown {
+  background-color: #c59378;
+}
+.promo-card-header {
+  font-weight: 700;
+  font-size: 18px;
+}
+.promo-card-desc {
+  font-weight: 400;
+  font-size: 16px;
+}
+.btn-apply-coupon {
+  border-radius: 12px;
+  background-color: #6a4029;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
+/* =================================== menu section ===================== */
+.selected-category {
+  color: #6a4029 !important;
+  font-size: 18px;
+  font-weight: 700 !important;
+}
+.food-category-list {
+  color: #9f9f9f;
+  font-size: 18px;
+  font-weight: 400;
+}
+.food-category-list:hover {
+  cursor: pointer;
+}
+.menu-item-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.menu-item-name {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 0.2s;
+}
+.menu-item-price {
+  color: #6a4029;
+  font-size: 17px;
+  font-weight: 500;
+}
+.card-list-menu-item {
+  width: 25%;
+}
+.card-list-menu-item:hover {
+  cursor: pointer;
+}
+.card-list-menu-item:hover .menu-item-name {
+  transform: scale(1.2);
+}

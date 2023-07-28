@@ -1,0 +1,32 @@
+.history__wrap {
+
+  background-size: cover;
+  background-color: #b1e193;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding: 110px 0px 250px 0px;
+}
+
+.history__card {
+  position: relative;
+  padding: 16px 28px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin-top: 26px;
+  img {
+    margin-right: 16px;
+  }
+
+  h5 {
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+  }
+
+  p {
+    color: rgb(0, 0, 0);
+  }
+}
+
+
+

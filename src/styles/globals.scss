@@ -1,0 +1,76 @@
+@import "bootstrap/dist/css/bootstrap.css";
+
+// FONT
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap%22");
+
+@import "footer";
+@import "auth";
+@import "history";
+@import "modalDelete";
+@import "landingPage";
+@import "detailProduct";
+@import "homeProduct";
+@import "paymnet";
+@import "newProduct";
+@import "newPromo";
+@import "dashboard";
+@import "profile";
+@import "user-login";
+
+a {
+  text-decoration: none !important;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.rubik-400 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+.rubik-600 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+
+.rubik-700 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+.pagination {
+  margin-bottom: 0;
+  margin-top: 52px;
+
+  .page-item {
+    margin-right: 0.46875rem;
+
+    &.active .page-link {
+      background-color: #6a4029;
+      border: none;
+      outline: none;
+      color: #ffffff;
+    }
+
+    .page-link {
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem !important;
+      color: #6a4029;
+      font-size: 1.125rem;
+      border-color: #6a4029;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+
+  li.break {
+    margin: auto !important;
+    margin-left: -7.5px !important;
+    padding: 0 0.46875rem !important;
+  }
+}

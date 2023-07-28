@@ -1,0 +1,465 @@
+.profile__title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #6a4029;
+  text-align: center;
+}
+.image__profile img {
+  margin-top: 46px !important;
+}
+.font {
+  margin-top: 15px;
+}
+.text-center h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.text-center p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.btn__photo,
+.btn__photo-remove {
+  padding-top: 10px;
+}
+
+.btn__photo {
+  width: 207px;
+  height: 44px;
+  background-color: #ffba33 !important;
+  border-radius: 10px !important;
+  margin-bottom: 11px;
+}
+
+.btn__photo h6 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #6a4029;
+  margin: 0;
+}
+
+.btn__photo-remove {
+  width: 207px;
+  height: 44px;
+  background-color: #6a4029 !important;
+  border-radius: 10px !important;
+  margin-bottom: 42px;
+}
+
+.btn__photo-remove h6 {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  padding: auto;
+  margin: 0;
+}
+
+.btn__edit-password {
+  width: 207px;
+  height: 60px;
+  background-color: white;
+  border-radius: 20px !important;
+  border: 1px solid #9f9f9f !important;
+  padding-top: 16px;
+}
+
+.btn__edit-password h6 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #6a4029;
+  margin: 0;
+}
+
+.font__edit {
+  margin-top: 34px;
+}
+
+.font__edit h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #6a4029;
+}
+
+.btn__edit-save {
+  width: 207px;
+  height: 60px;
+  background-color: #6a4029 !important;
+  border-radius: 20px !important;
+  padding-top: 16px;
+  margin-bottom: 22px;
+  margin-top: 37px;
+}
+.btn__edit-save h6 {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+
+.btn__edit-cancel {
+  width: 207px;
+  height: 60px;
+  background-color: #ffba33 !important;
+  border-radius: 20px !important;
+  padding-top: 16px;
+  margin-bottom: 45px;
+}
+.btn__edit-cancel h6 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #6a4029;
+  margin: 0;
+}
+
+.btn__edit-logout {
+  width: 207px;
+  height: 60px;
+  background-color: white !important;
+  border-radius: 20px !important;
+  border: 1px solid #9f9f9f !important;
+  padding-top: 16px;
+}
+.btn__edit-logout h6 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #6a4029;
+  margin: 0;
+}
+
+.border__contact h5 {
+  padding-top: 17px;
+  padding-left: 30px;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgba(79, 86, 101, 1);
+}
+
+.contact h5 {
+  margin-top: 20px;
+}
+
+.border__contact img {
+  margin-top: 15px;
+  padding-left: 10px;
+}
+/* form Detail */
+
+form .textbox {
+  width: 240px;
+  overflow: hidden;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+.elips {
+  display: none;
+}
+.date input {
+  width: 250px;
+}
+form .textbox input {
+  border: none;
+  outline: none;
+  background: none;
+  color: black;
+  font-size: 14px;
+  width: 340px;
+}
+form .textbox input:focus {
+  outline: none;
+  box-shadow: none;
+}
+form h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #9f9f9f;
+  margin-top: 20px;
+}
+.form__contacts form {
+  padding-left: 30px;
+}
+.form-row {
+  margin-top: 25px;
+}
+
+.detail {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+/* radio */
+
+.radio__button {
+  margin-left: 100px;
+  margin-top: 66px;
+}
+
+.form-check {
+  margin-right: 120px;
+}
+
+.form-check > label.form-check-label {
+  display: flex;
+  align-items: center;
+}
+
+.form-check-input:focus {
+  box-shadow: none;
+}
+
+.form-check > .form-check-input:checked {
+  border: 3px solid #6a4029;
+  background-color: #ffba33;
+}
+
+.form-check-input:checked[type="radio"] {
+  background-image: none;
+}
+
+@media (min-width: 992px) {
+  /* jumbotron */
+  .jumbotron__profile {
+    background-color: #b1e193;
+    height: 1580px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .profile__title {
+      font-size: 35px;
+      font-weight: bold;
+      color: white;
+      padding-top: 60px;
+      padding-left: 168px;
+    }
+  }
+
+  /* borderbox didalam jumbutron */
+  .border_box {
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    width: 1133px;
+    height: 951px;
+    margin: auto;
+    margin-top: 31px;
+  }
+
+  /* isi sisi kiri */
+  .image__profile img {
+    margin-top: 46px !important;
+  }
+  .font {
+    margin-top: 15px;
+  }
+  .text-center h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .text-center p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .btn__photo,
+  .btn__photo-remove {
+    padding-top: 10px;
+  }
+
+  .btn__photo {
+    width: 207px;
+    height: 44px;
+    background-color: #ffba33 !important;
+    border-radius: 10px !important;
+    margin-bottom: 11px;
+  }
+
+  .btn__photo h6 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #6a4029;
+    margin: 0;
+  }
+
+  .btn__photo-remove {
+    width: 207px;
+    height: 44px;
+    background-color: #6a4029 !important;
+    border-radius: 10px !important;
+    margin-bottom: 42px;
+  }
+
+  .btn__photo-remove h6 {
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    padding: auto;
+    margin: 0;
+  }
+
+  .btn__edit-password {
+    width: 207px;
+    height: 60px;
+    background-color: white;
+    border-radius: 20px !important;
+    border: 1px solid #9f9f9f !important;
+    padding-top: 16px;
+  }
+
+  .btn__edit-password h6 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #6a4029;
+    margin: 0;
+  }
+
+  .font__edit {
+    margin-top: 34px;
+  }
+
+  .font__edit h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #6a4029;
+  }
+
+  .btn__edit-save {
+    width: 207px;
+    height: 60px;
+    background-color: #6a4029 !important;
+    border-radius: 20px !important;
+    padding-top: 16px;
+    margin-bottom: 22px;
+    margin-top: 37px;
+  }
+  .btn__edit-save h6 {
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+  }
+
+  .btn__edit-cancel {
+    width: 207px;
+    height: 60px;
+    background-color: #ffba33 !important;
+    border-radius: 20px !important;
+    padding-top: 16px;
+    margin-bottom: 45px;
+  }
+  .btn__edit-cancel h6 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #6a4029;
+    margin: 0;
+  }
+
+  .btn__edit-logout {
+    width: 207px;
+    height: 60px;
+    background-color: white !important;
+    border-radius: 20px !important;
+    border: 1px solid #9f9f9f !important;
+    padding-top: 16px;
+  }
+  .btn__edit-logout h6 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #6a4029;
+    margin: 0;
+  }
+
+  /* sisi kanan */
+  .border__contact {
+    background-color: #ffffff;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+    height: 841px;
+    width: 705px;
+    margin-top: 54px;
+  }
+
+  .border__contact h5 {
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(79, 86, 101, 1);
+  }
+
+  .border__contact img {
+    margin-top: 15px;
+    padding-left: 10px;
+  }
+  .elips {
+    width: 40px;
+    height: 49px;
+    background-color: rgba(106, 64, 41, 1);
+    margin-top: 19px;
+    margin-left: 50px !important;
+  }
+
+  /* form Detail */
+  form .textbox {
+    width: 240px;
+    overflow: hidden;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+  }
+  form .textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 14px;
+    width: 340px;
+  }
+  form .textbox input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  form h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #9f9f9f;
+  }
+  .form__contacts form {
+    padding-left: 30px;
+  }
+  .form-row {
+    margin-top: 25px;
+  }
+
+  .detail {
+    margin-top: 41px;
+    margin-bottom: 29px;
+  }
+  /* radio */
+
+  .radio__button {
+    margin-left: 197px;
+    margin-top: 66px;
+  }
+
+  .form-check {
+    margin-right: 120px;
+  }
+
+  .form-check > label.form-check-label {
+    display: flex;
+    align-items: center;
+  }
+
+  .form-check-input:focus {
+    box-shadow: none;
+  }
+
+  .form-check > .form-check-input:checked {
+    border: 3px solid #6a4029;
+    background-color: #ffba33;
+  }
+
+  .form-check-input:checked[type="radio"] {
+    background-image: none;
+  }
+}
